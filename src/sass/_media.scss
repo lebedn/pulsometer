@@ -1,1 +1,22 @@
-
+            @media (max-width: 991px) {
+                .header {
+                    width: 90%;
+                    &__logo {
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+                .promo {
+                    &__wrapper {
+                        width: 90%;
+                    }
+                    &__header {
+                        font-size: 35px;
+                        ;
+                    }
+                    &__subheader {
+                        font-size: 18px;
+                    }
+                }
+            }
