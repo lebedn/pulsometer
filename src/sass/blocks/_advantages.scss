@@ -8,10 +8,8 @@
             font-weight: 700;
             text-align: center;
         }
-        &__wrapper {
+        &__item {
             margin-top: 65px;
-            display: flex;
-            justify-content: space-between;
         }
         &__icons {
             img {
@@ -20,20 +18,21 @@
             }
         }
         &__caption {
-            margin-top: 38px;
+            margin: 0 auto;
             text-align: center;
+            margin-top: 38px;
             color: #0d0d0d;
             font-size: 18px;
             font-weight: 700;
         }
         &__descr {
+            margin: 0 auto;
+            text-align: center;
             margin-top: 25px;
             width: 247px;
             color: #0d0d0d;
             font-size: 13px;
             font-weight: 300;
-            font-style: normal;
-            text-align: center;
             span {
                 color: #ff0000;
             }

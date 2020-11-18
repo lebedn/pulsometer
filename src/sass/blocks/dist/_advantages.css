@@ -9,30 +9,29 @@
   font-weight: 700;
   text-align: center;
 }
-.advantages__wrapper {
+.advantages__item {
   margin-top: 65px;
-  display: flex;
-  justify-content: space-between;
 }
 .advantages__icons img {
   display: block;
   margin: 0 auto;
 }
 .advantages__caption {
-  margin-top: 38px;
+  margin: 0 auto;
   text-align: center;
+  margin-top: 38px;
   color: #0d0d0d;
   font-size: 18px;
   font-weight: 700;
 }
 .advantages__descr {
+  margin: 0 auto;
+  text-align: center;
   margin-top: 25px;
   width: 247px;
   color: #0d0d0d;
   font-size: 13px;
   font-weight: 300;
-  font-style: normal;
-  text-align: center;
 }
 .advantages__descr span {
   color: #ff0000;

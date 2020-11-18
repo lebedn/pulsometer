@@ -16,3 +16,24 @@
     font-size: 18px;
   }
 }
+@media (max-width: 575px) {
+  .header__official {
+    display: none;
+  }
+  .header__logo img {
+    padding-right: 10px;
+  }
+
+  .promo__header {
+    font-size: 25px;
+  }
+  .promo__subheader {
+    font-size: 13px;
+  }
+  .promo__icons {
+    width: 315px;
+  }
+  .promo__icon {
+    font-size: 12px;
+  }
+}
