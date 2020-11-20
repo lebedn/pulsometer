@@ -31,9 +31,27 @@
     font-size: 13px;
   }
   .promo__icons {
-    width: 315px;
+    width: 270px;
   }
   .promo__icon {
     font-size: 12px;
+  }
+  .promo .button_main {
+    width: 260px;
+  }
+
+  .advantages .title {
+    font-size: 25px;
+  }
+
+  .consultation .title_left {
+    font-size: 18px;
+  }
+  .consultation__descr {
+    width: 240px;
+    font-size: 15px;
+  }
+  .consultation .feed-form {
+    width: 250px;
   }
 }

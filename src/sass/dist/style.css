@@ -1,7 +1,7 @@
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url(../../img/main.jpg) center center/cover no-repeat;
+  background: url("../img/main.jpg") center center/cover no-repeat;
 }
 .promo__wrapper {
   display: flex;
@@ -120,7 +120,103 @@
   padding: 70px 0 78px 0;
   background-color: #f6f6f6;
 }
+.advantages__item {
+  margin-top: 65px;
+}
+.advantages__icons img {
+  display: block;
+  margin: 0 auto;
+}
+.advantages__caption {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 38px;
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+}
+.advantages__descr {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+  width: 247px;
+  color: #0d0d0d;
+  font-size: 13px;
+  font-weight: 300;
+}
+.advantages__descr span {
+  color: #ff0000;
+}
 
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url("../img/consultation.jpg") center center/cover no-repeat;
+}
+.consultation__descr {
+  width: 396px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.title {
+  color: #0d0d0d;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title_left {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .header {
+    width: 90%;
+  }
+  .header__logo img {
+    width: 80%;
+  }
+
+  .promo__wrapper {
+    width: 90%;
+  }
+  .promo__header {
+    font-size: 35px;
+  }
+  .promo__subheader {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .header__official {
+    display: none;
+  }
+  .header__logo img {
+    padding-right: 10px;
+  }
+
+  .promo__header {
+    font-size: 25px;
+  }
+  .promo__subheader {
+    font-size: 13px;
+  }
+  .promo__icons {
+    width: 270px;
+  }
+  .promo__icon {
+    font-size: 12px;
+  }
+  .promo .button_main {
+    width: 260px;
+  }
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
