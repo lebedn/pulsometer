@@ -9,6 +9,11 @@
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
+    &:hover {
+        box-shadow: 0 0 0 2px #ee1515 inset, 0 0 0 4px white inset;
+        outline: none;
+        border: 0;
+    }
     &_main {
         width: 300px;
         height: 50px;
@@ -20,5 +25,10 @@
         height: 55px;
         color: #ffffff;
         font-size: 16px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }

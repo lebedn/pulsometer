@@ -10,3 +10,13 @@
   font-weight: 500;
   text-align: left;
 }
+.consultation .error {
+  border: 1px solid red;
+}
+.consultation label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #ffffff;
+}

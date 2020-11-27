@@ -10,6 +10,12 @@
   display: block;
   margin: 0 auto;
 }
+.advantages__icons_animated {
+  animation: heartbeat 1s ease infinite;
+}
+.advantages__icons_animated:hover {
+  animation-play-state: paused;
+}
 .advantages__caption {
   margin: 0 auto;
   text-align: center;
